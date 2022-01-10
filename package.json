@@ -1,0 +1,34 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "easyinvoice": "^1.0.148",
+    "export-to-csv-file": "^0.2.2",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.17",
+    "googleapis": "^85.0.0",
+    "html-pdf": "^2.2.0",
+    "mimetext": "^0.2.2",
+    "mongodb": "^4.1.1",
+    "mongoose": "^6.0.4",
+    "multer": "^1.4.3",
+    "node-logs": "^1.1.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.12",
+    "uuidv4": "^6.2.12",
+    "winston": "^3.3.3"
+  }
+}
